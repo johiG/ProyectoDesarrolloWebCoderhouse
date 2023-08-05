@@ -1,0 +1,212 @@
+/* ---------Clases generales para todo el sitio inicio -----------*/
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+}
+
+/* ---------Navbar inicio -----------*/
+
+header {
+    width: 100%;
+    height: 55px;
+    background: rgb(179,34,195);
+    background: linear-gradient(0deg, rgba(179,34,195,1) 0%, rgba(94,45,253,1) 100%);
+    /* position: fixed;
+    top: 0px; */
+}
+
+header img {
+    float: left;
+    position: relative;
+    height: 80px;
+    top: -13px;
+    left: 10px;
+}
+
+header nav {
+    padding: 10px;
+    width: 100%;
+    max-width: 335px;
+    float: right;
+}
+
+header ul {
+   text-decoration: none;
+   padding: 0px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ---------Navbar Fin -----------*/
+
+/*----------------------------------------------------------------*/
+
+/* ---------Footer Inicio --------*/
+
+footer {
+    height: 120px;
+    padding: 10px;
+    background: rgb(179,34,195);
+    background: linear-gradient(0deg, rgba(179,34,195,1) 0%, rgba(94,45,253,1) 100%);
+}
+
+footer section {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+}
+
+.footer-first-child {
+    position: relative;
+    top: 0px;
+}
+
+.footer-last-child {
+    position: relative;
+    top: -82px;
+}
+
+footer section img {
+    height: 80px;
+}
+
+footer section p {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.icon-instagram {
+    background-color: rgb(255 255 255 / 45%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    float: right;
+}
+
+.icon-instagram img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.icon-twitter {
+    background-color: rgb(255 255 255 / 45%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.icon-twitter  img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+footer section ul {
+    padding: 0px;
+    position: relative;
+    bottom: -80px;
+    display: inline-block;
+}
+
+footer section ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+}
+
+/* ---------Footer Fin ------------*/
+
+/*----------------------------------------------------------------*/
+
+/* ----------Clases generales para todo el sitio Fin -------------*/
+
+/*----------------------------------------------------------------*/
+
+/* -----------Clases Seccion Home inicio -------------------------*/
+
+.home__container section {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    background-image: url(../Images/serena-character.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.call-to-action-container {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.call-to-action-container button {
+    border-radius: 50px;
+    border: solid 1px purple;
+    background-color: rgb(128 0 128 / 30%);
+    color: white;
+    margin-top: 20px;
+}
+
+/* -----------Clases Seccion Home Fin ----------------------------*/
+
+/*----------------------------------------------------------------*/
+
+/* -----------Clases Seccion Temporadas inicio -------------------*/
+
+
+
+/* -----------Clases Seccion Temporadas Fin ----------------------*/
+
+/*-----------------------------------------------------------------*/
+
+/* -----------Clases Seccion Tienda inicio ------------------------*/
+
+
+
+/* -----------Clases Seccion Tienda Fin ---------------------------*/
+
+/*-----------------------------------------------------------------*/
+
+/* -----------Clases Seccion Bonus inicio -------------------------*/
+
+
+
+/* -----------Clases Seccion Bonus Fin ----------------------------*/
+
+/*-----------------------------------------------------------------*/
+
+/* -----------Clases Seccion Contacto inicio ----------------------*/
+
+
+
+/* -----------Clases Seccion Contacto Fin -------------------------*/
+
+/*------------------------------------------------------------------*/
